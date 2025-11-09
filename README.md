@@ -14,16 +14,33 @@ Este é um projeto web simples que demonstra o movimento de elementos HTML (`div
 2.  Abra o arquivo `index.html` em qualquer navegador web.
 3.  Clique nos botões "Mover Objeto para a direita", "Mover Objeto para baixo" e "Mover Menu para a direita" para ver os elementos se moverem.
 
-## Assets de Referência
+## Assets de Referência (Projeto Avançado)
 
-Os seguintes arquivos foram fornecidos como referência para um projeto de "Botões Dançantes" mais avançado, que não está implementado neste código simples:
+Os seguintes arquivos foram fornecidos como referência para um projeto de "Botões Dançantes" mais avançado, que **não está implementado neste código simples**, mas que servem como inspiração para futuras implementações.
+
+### 1. Menu Lateral e Organização em Linha
+
+Esta imagem demonstra uma possível interface de usuário com um menu lateral e a organização dos botões "ERP" em linhas.
+
+![Menu Lateral e Organização em Linha](imagem_menu_lateral.png)
+
+### 2. Organização Circular
+
+Esta imagem mostra uma organização alternativa dos botões "ERP" em um formato circular.
+
+![Organização Circular](imagem_organizacao_circular.png)
+
+### 3. Organização Quadrada
+
+Esta imagem mostra a organização dos botões "ERP" em um formato quadrado.
+
+![Organização Quadrada](imagem_organizacao_quadrada.png)
+
+---
 
 | Arquivo | Tipo | Descrição |
 | :--- | :--- | :--- |
 | `video_demonstracao.mp4` | Vídeo | Demonstração de um projeto mais complexo com botões que se organizam. |
-| `imagem_menu_lateral.png` | Imagem | Captura de tela mostrando um menu lateral e botões "ERP" organizados. |
-| `imagem_organizacao_circular.png` | Imagem | Captura de tela mostrando os botões "ERP" organizados em formato circular. |
-| `imagem_organizacao_quadrada.png` | Imagem | Captura de tela mostrando os botões "ERP" organizados em formato quadrado. |
 | `video_plano_de_fundo.mp4` | Vídeo | Vídeo de plano de fundo usado no projeto mais avançado. |
 
 ## Contato
