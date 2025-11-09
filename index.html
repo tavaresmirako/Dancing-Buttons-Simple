@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mover Objeto</title>
+    <style>
+        #meuObjeto {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute; /* necessário para mover com left e top */
+            left: 0;
+            top: 0;
+        }
+        #menuBotao {
+            position: absolute;
+            left: 100px; /* Posição inicial do botão */
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="meuObjeto"></div>
+
+    <!-- Botão de Menu -->
+    <button id="menuBotao" onclick="moverMenuDireita()">Mover Menu para a direita</button>
+    <button onclick="moverDireita()">Mover Objeto para a direita</button>
+    <button onclick="moverBaixo()">Mover Objeto para baixo</button>
+
+    <script>
+        function moverDireita() {
+            const objeto = document.getElementById('meuObjeto');
+            // Garante que o valor inicial seja 0 se não estiver definido
+            const posicaoAtual = parseInt(objeto.style.left) || 0;
+            objeto.style.left = posicaoAtual + 10 + 'px';
+        }
+
+        function moverBaixo() {
+            const objeto = document.getElementById('meuObjeto');
+            // Garante que o valor inicial seja 0 se não estiver definido
+            const posicaoAtual = parseInt(objeto.style.top) || 0;
+            objeto.style.top = posicaoAtual + 10 + 'px';
+        }
+
+        function moverMenuDireita() {
+            const botaoMenu = document.getElementById('menuBotao');
+            // Garante que o valor inicial seja 100 se não estiver definido
+            const posicaoAtual = parseInt(botaoMenu.style.left) || 100;
+            botaoMenu.style.left = posicaoAtual + 10 + 'px';
+        }
+    </script>
+</body>
+</html>
